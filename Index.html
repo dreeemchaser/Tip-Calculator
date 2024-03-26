@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <h1>Tip Calculator</h1>
+
+    <label>Total Bill Amount</label>
+    <label for="billAmount"></label><input type="number" inputmode="numeric" pattern="[0-9]*" id="billAmount">
+    <br>
+    <label>Tip Percentage</label>
+    <label for="tipPercentage"></label><input type="number" inputmode="numeric" pattern="[0-9]*" id="tipPercentage">
+    <br>
+    <button id="btnCalculate" onclick="calculateTotal()"> Calculate </button>
+    <p id="totalAmount">Total: $</p>
+</form>
+
+<script src="Index.js">
+</script>
+</body>
+</html>
